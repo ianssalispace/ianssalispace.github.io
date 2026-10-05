@@ -168,19 +168,19 @@ h3 { margin: .7rem 0 .8rem; font-family: var(--serif); font-size: 1.45rem; font-
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
 }
-/* Nuova fotografia professionale */
+/* Correzione definitiva fotografia */
 .portrait-frame {
   width: 100%;
   height: auto !important;
   overflow: hidden;
-  background: #ffffff;
+  background: #ffffff !important;
 }
 
 .portrait-frame .portrait {
   display: block;
   width: 100%;
   height: auto !important;
-  object-fit: initial;
-  object-position: center top;
+  object-fit: initial !important;
+  object-position: center top !important;
   transform: none !important;
 }
